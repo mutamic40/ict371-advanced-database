@@ -2,7 +2,9 @@
 -- ICT371 - Q1: Pharmacy Stock and Daily Sales
 -- ============================================================
 
-DROP SCHEMA IF EXISTS Q1 CASCADE; CREATE SCHEMA Q2; SET search_path TO Q2;
+DROP SCHEMA IF EXISTS Q1 CASCADE;
+CREATE SCHEMA Q1;
+SET search_path TO Q1;
 
 -- ============================================
 -- Part (a): Tables and constraints
